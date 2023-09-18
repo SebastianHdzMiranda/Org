@@ -1,0 +1,23 @@
+.boton{
+    background: #6278F7;
+    border-radius: 1rem;
+    font-weight: 700;
+    padding: 2rem 5rem;
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: color .2s ease;
+    width: 100%;
+}
+
+.boton:hover{
+    color: #95FFD4;
+}
+
+@media (min-width: 768px) {
+    .boton{
+        width: unset;
+    }
+}

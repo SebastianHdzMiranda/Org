@@ -1,0 +1,27 @@
+/*Estilos base*/
+.equipo{
+    text-align: center;
+    padding: 5rem 0;
+    position: relative;
+}
+.equipo input{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.equipo h3{
+    margin-top: 0;
+    color: #212121;
+    display: inline-block;
+    padding-bottom: .8rem;
+    border-bottom: 4px solid;
+    
+}
+.colaboradores{
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}

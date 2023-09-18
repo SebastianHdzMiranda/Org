@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+    padding: 5%;
+    height: 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.iconRedes{
+    width: 2rem;
+}
+.footer .logo{
+    margin-left: 4.5rem;
+    width: 8rem;
+}
+.footer strong{
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: end;
+}
+
+@media (min-width: 768px) {
+    .redes{
+        gap: 4rem;
+    }
+    .iconRedes{
+        width: 2.5rem;
+    }
+    .footer .logo{
+        margin-left: 8rem;
+        width: 13rem;
+    }
+    .footer strong{
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,51 @@
+.card{
+    background-color: #fff;
+    border-radius: 1rem;
+    /* overflow: hidden; */
+    padding-bottom: 2rem;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.08);
+    width: 280px;
+    position: relative;
+}
+
+.eliminar{
+    font-size: .1px;
+    transition: all .1s ease;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.heart{
+    font-size: 3rem;
+}
+
+.card:hover .eliminar{
+    font-size: 3rem;
+    right: -15px;
+    top: -15px;
+}
+
+.header-card{
+    height: 9rem;
+    width: 100%;
+    margin-bottom: 9rem;
+    border-radius: 1rem 1rem 0 0;
+}
+.card img{
+    height: 12rem;
+    width: 12rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.card .info{
+    padding-inline: 4rem;
+}
+
+.card .nombre{
+    color: #6278F7;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
