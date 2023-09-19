@@ -2,7 +2,7 @@ import './footer.css';
 
 const Footer = ()=>{
     return (
-        <footer className='footer' style={{backgroundImage: 'url(./img/footer.png)'}}>
+        <footer className='footer' style={{backgroundImage: 'url(/img/footer.png)'}}>
 
             <div className="footer-content contenedor">
                 <div className="redes">
@@ -17,7 +17,7 @@ const Footer = ()=>{
                     </a>
                     
                 </div>
-                <img src="./img/logo.png" alt="logo" className='logo'/>
+                <img src="/img/Logo.png" alt="logo" className='logo'/>
                 <strong>Desarrollado por Alura</strong>
             </div>
         </footer>
